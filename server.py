@@ -16,5 +16,6 @@ class MonHandler(BaseHTTPRequestHandler):
 
 
         if __name__ == "__main__":
-            MonHandler.do_GET(None)
+            print("Démarrage du serveur HTTP...")
+            MonHandler.do_GET()
             print("Serveur démarré. Accédez à http://localhost:8080/")
